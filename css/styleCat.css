@@ -18,9 +18,9 @@ body{
     box-shadow: 0px 0px 7px #00000055;
     position: relative;
 }
-#logo {
+#logo img{
     float: left;
-    padding: 10px;
+    padding: 10px; 
 }
 #menu {
     float: right;
@@ -34,7 +34,7 @@ body{
     padding: 20px;
     text-decoration: none;
 }
-img{
+#imgCat{
     display: block;
     height: 150px;
     width: 100px;
@@ -43,8 +43,6 @@ img{
 
 #tabla1Novela{
     margin: auto;
-    border: #F2355B 5px solid;
-    border-collapse: collapse;
 }
 
 #tabla2Novela{
@@ -55,13 +53,11 @@ img{
 
 #tablaCuento{
     margin: auto;
-    border: #02A694 5px solid;
     border-collapse: collapse;
 }
 
 #tabla1NoFiccion{
     margin: auto;
-    border: #F38902 5px solid;
     border-collapse: collapse;
 }
 
@@ -79,25 +75,16 @@ img{
 
 .tdNovela{
     margin: auto;
-    border-bottom: #F2355B 5px solid;
-    border-left: #F2355B 5px solid;
-    border-right: #F2355B 5px solid;
     width: 200;
 }
 
 .tdCuento{
     margin: auto;
-    border-bottom: #02A694 5px solid;
-    border-left: #02A694 5px solid;
-    border-right: #02A694 5px solid;
     width: 250;
 }
 
 .tdNoFiccion{
     margin: auto;
-    border-bottom: #F38902 5px solid;
-    border-left: #F38902 5px solid;
-    border-right: #F38902 5px solid;
     width: 200;
 }
 
@@ -109,16 +96,19 @@ img{
 #tituloNovela{
     color:  #F2355B;
     text-align: center;
+    padding: 30px;
 }
 
 #tituloCuento{
     color:  #02A694;
     text-align: center;
+    padding: 30px;
 }
 
 #tituloNoFiccion{
     color:  #F38902;
     text-align: center;
+    padding: 30px;
 }
 
 #tituloMemoria{
@@ -131,7 +121,7 @@ h2{
     color:black;
     text-align: center;
     margin: 5px auto;
-    padding: 0;
+    padding: 20px;
 }
 
 #footer{
